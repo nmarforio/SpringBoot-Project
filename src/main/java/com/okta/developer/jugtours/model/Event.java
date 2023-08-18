@@ -14,7 +14,7 @@ import jakarta.persistence.ManyToMany;
 import java.time.Instant;
 import java.util.Set;
 
-@Data // generate constructore with required arguments, ToString method and Hascode and equals implementation, check non-transient Field
+@Data // generate constructor with required arguments, ToString method and Hascode and equals implementation, check non-transient Field
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder // Build complex object with the whatever value available

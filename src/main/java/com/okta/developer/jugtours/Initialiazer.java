@@ -16,8 +16,8 @@ class Initializer implements CommandLineRunner {
 
     private final GroupRepository repository;
 
-    public Initializer(GroupRepository repository) {
-        this.repository = repository;
+    public Initializer(GroupRepository repository) { // class constructor! it has to match the class name where is inside, Initialazier in this case and no return type! 
+        this.repository = repository
     }
 
     @Override
